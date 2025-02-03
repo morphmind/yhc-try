@@ -1,7 +1,7 @@
 import React from 'react';
-import { useTranslation } from '@/hooks/useTranslation';
-import { Button } from '@/components/ui/button';
-import { cn } from '@/lib/utils';
+import { useTranslation } from '../../../hooks/useTranslation';
+import { Button } from '../../../components/ui/button';
+import { cn } from '../../../lib/utils';
 import { 
   Sparkles,
   ArrowRight,
@@ -9,8 +9,7 @@ import {
   Sun,
   Waves,
   UtensilsCrossed,
-  Compass,
-  ChevronDown
+  Compass
 } from 'lucide-react';
 
 interface HeroSectionProps {
@@ -154,15 +153,6 @@ export function HeroSection({ onAnalysisClick, onWhatsAppClick }: HeroSectionPro
               </div>
             ))}
           </div>
-        </div>
-
-        {/* Scroll Indicator */}
-        <div className="absolute bottom-8 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 text-foreground/60 dark:text-white/60">
-          <div className="relative w-6 h-10 rounded-full border-2 border-primary/20 dark:border-white/20 overflow-hidden">
-            <div className="absolute top-1 left-1/2 -translate-x-1/2 w-1.5 h-1.5 rounded-full bg-primary dark:bg-white animate-scroll-down" />
-            <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-white/5 dark:to-black/5" />
-          </div>
-          <ChevronDown className="w-4 h-4 animate-bounce" />
         </div>
       </div>
     </div>

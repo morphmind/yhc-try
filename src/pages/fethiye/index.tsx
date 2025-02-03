@@ -1,7 +1,7 @@
 import React from 'react';
-import { useTranslation } from '@/hooks/useTranslation';
-import { useCurrency } from '@/hooks/useCurrency';
-import Header from '@/components/layout/Header';
+import { useTranslation } from '../../hooks/useTranslation';
+import { useCurrency } from '../../hooks/useCurrency';
+import Header from '../../components/layout/Header';
 import { HeroSection } from './components/HeroSection';
 import { SeasonsSection } from './components/SeasonsSection';
 import { AttractionsSection } from './components/AttractionsSection';

@@ -28,7 +28,7 @@ export function TransportationSection() {
       image: 'https://glokalizm.com/yakisikli/img/fethiye/dalaman-airport.jpg'
     },
     {
-      id: 'public',
+      id: 'local',
       icon: Bus,
       gradient: 'from-emerald-500/20 to-green-500/20',
       iconColor: 'text-emerald-500',
